@@ -10,7 +10,7 @@ const Historia2 = () => {
         <View style={styles.container}>
             {loading && (
             <View style={styles.loadingContainer}>
-                <ActivityIndicator size="large" color="#00202e"/> // icono de carga azul
+                <ActivityIndicator size="large" color="#00202e" /> // icono de carga azul
                 <Text style={styles.loadingText}>Cargando Mapa...</Text>
                 </View>
 
@@ -48,7 +48,7 @@ const styles= StyleSheet.create({
 
     },
     loaderText:{
-        marginTop:10,
+        marginTop:10,zIndex: 10,
         fontSize:16,
         color:"#00333",
     },
