@@ -48,4 +48,4 @@ const style=StyleSheet.create({
     content: {
         backgroundColor: "#f9f9f9",
     }
-})    
+})      
